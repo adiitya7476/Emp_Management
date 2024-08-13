@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="insertion.jsp">Insert Emp</a>
+    
+    <form action="homeSrv" method="post" class="inline-form">
+        <input type="hidden" name="opr" value="dataFetch">
+        <button type="submit" class="link-button">View All Data</button>
+    </form>
+    
+    <form action="homeSrv" method="post" class="inline-form">
+        <input type="hidden" name="opr" value="updateRequest">
+        <button type="submit" class="link-button">Update</button>
+    </form>
+    
+    <form action="homeSrv" method="post" class="inline-form">
+        <input type="hidden" name="opr" value="delRequest">
+        <button type="submit" class="link-button">Delete</button> 
+    </form>
+    
+    <form action="homeSrv" method="post" class="inline-form">
+		<input type="hidden" name="opr" value="search">
+  		<input id="search" type="text" placeholder="Search name.." name="name">
+  		<button type="submit"><i class="fa fa-search"></i></butto>
+	</form>
+    
+</div>
+
+<h2>Welcome admin! Here you can add, update, view and delete employee details.</h2>
+
+</body>
+</html>
