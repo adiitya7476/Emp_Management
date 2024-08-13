@@ -45,7 +45,7 @@
                     	<form action="homeSrv" method="post">
                     		<input type="hidden" name="opr" value="deleteId">
                     		<input type="hidden" name="id" value=<%=ob.getId() %>>
-                    		<button type="submit"><i class="fa fa-trash-o" style="font-size:24px;color:red;text-align: center;"></i></button>
+                    		<button type="submit" style="background-color: transparent;" ><i class="fa fa-trash-o" style="font-size:24px;color:red;text-align: center;"></i></button>
                     	</form>
                     </td>
                 </tr>

@@ -50,7 +50,7 @@
                     		<input type="hidden" name="salary" value=<%=ob.getSal() %>>
                     		<input type="hidden" name="id" value=<%=ob.getMobile() %>>
                     		
-                    		<button type="submit"><i class="fa fa-edit" style="font-size:24px; color: blue;"></i></button>
+                    		<button type="submit" style="background-color: transparent;"><i class="fa fa-edit" style="font-size:24px; color: blue;"></i></button>
                     	</form>
                     </td>
                 </tr>
